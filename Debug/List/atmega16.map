@@ -1,0 +1,32 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+value                                                                             0x0160      10
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+j                                                                                 R4,R5        2
+receiv                                                                            R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+WDT_ON                                                                            0x00066      2
+WDT_OFF                                                                           0x00068      5
+init                                                                              0x0006D     19
+I2C_Start                                                                         0x00080     11
+I2C_Repeated_Start                                                                0x0008B     11
+I2C_Write                                                                         0x00096     10
+I2C_Read_Ack                                                                      0x000A0      6
+I2C_Read_Nack                                                                     0x000A6      7
+I2C_Stop                                                                          0x000AD      6
+read                                                                              0x000B3     24
+uart_txc                                                                          0x000CB     15
+uart_rxc                                                                          0x000DA     22
+timer_trans                                                                       0x000F0     19
+main                                                                              0x00103     12
