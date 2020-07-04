@@ -7,3 +7,5 @@ Atmega16 use I2C get tem and humidity from DHT12
 Atmega16 use UART to transfer data to desktop app
 
 Set up interupt for uart, timer/counter1, watch dog
+
+hex file in debug/exe/atmega16.hex
